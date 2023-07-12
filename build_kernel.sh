@@ -18,7 +18,7 @@ fi
 
 date="$(date +%Y.%m.%d-%I:%M)"
 
-make ARCH=arm64 O=out CC=clang r6p_nodtb_defconfig
+make ARCH=arm64 O=out CC=clang r6p_nodtb_ksu_defconfig
 # 定义编译线程数
 make ARCH=arm64 O=out $EV -j12 CC=clang 2>&1 | tee kernel_log-${date}.txt
 
