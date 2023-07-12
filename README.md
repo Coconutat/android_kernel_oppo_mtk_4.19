@@ -1,4 +1,5 @@
 # OPPO MTK Kernel 4.19 For Android 13  
+This branch support KernelSU.
 ***
 How to compile?  
 1. Create a folder with a whatever you like to name, but make sure your compiler recognizes it. e.g:`mkdir oppo_mtk`  
