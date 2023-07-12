@@ -28,7 +28,7 @@ if [ -f out/arch/arm64/boot/Image.gz ]; then
 	cp out/arch/arm64/boot/Image.gz AnyKernel3/Image.gz
 	cd AnyKernel3
 	zip -r9 OPPO_RENO6_PRO_KSU-${date}.zip * > /dev/null
-	cd ../..
+	cd ..
 	mv AnyKernel3/OPPO_RENO6_PRO_KSU-${date}.zip OPPO_RENO6_PRO_KSU-${date}.zip
 	rm -rf AnyKernel3/Image.gz
 
