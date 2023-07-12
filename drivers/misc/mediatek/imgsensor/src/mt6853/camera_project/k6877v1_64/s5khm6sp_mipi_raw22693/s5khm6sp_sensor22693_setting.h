@@ -22092,7 +22092,8 @@ kal_uint16 addr_data_pair_cus3_hm2_otp_sensor[] = {
 
 };
 
-
+/* Fix Compile Error*/
+/*
 kal_uint16 addr_data_pair_cus3_hm2[] = {
     0xFCFC, 0x4000,
     0x0B30, 0x01FF,
@@ -23592,6 +23593,7 @@ kal_uint16 addr_data_pair_cus3_hm2[] = {
     0xFCFC, 0x4000,
     0x0000, 0x1AD6,
 };
+*/
 
 kal_uint16 addr_data_pair_cus4_hm2_otp_sensor[] = {
 //===================================================
